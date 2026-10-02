@@ -1,0 +1,184 @@
+.contenidor {
+    display: grid !important;
+    grid-template-columns: 2fr 1fr !important;
+    gap: 30px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.contingut {
+    background-color: lightblue !important;
+}
+
+.galeria {
+    background-color: lightgreen !important;
+}
+
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #88c9b0;
+    color: #2f3e35;
+}
+
+
+/* ================================= */
+/* COLUMNA ESQUERRA                  */
+/* ================================= */
+
+.contingut {
+    background-color: white;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.10);
+}
+
+
+/* ================================= */
+/* TÍTOLS                            */
+/* ================================= */
+
+h1 {
+    color: #315c4a;
+    font-size: 38px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #477a63;
+    margin-top: 28px;
+    margin-bottom: 12px;
+}
+
+
+/* ================================= */
+/* PARÀGRAFS                         */
+/* ================================= */
+
+p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+
+/* Introducció */
+
+.introduccio {
+    background-color: #f1f7f1;
+    padding: 15px;
+    border-left: 5px solid #6f9d83;
+    border-radius: 8px;
+}
+
+
+/* ================================= */
+/* LLISTES                           */
+/* ================================= */
+
+.llista {
+    background-color: #f4f8f3;
+    padding: 18px 35px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+
+/* Hover de la llista */
+
+.llista:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.10);
+}
+
+
+/* Elements de les llistes */
+
+.llista li {
+    margin-bottom: 9px;
+    transition: 0.3s;
+}
+
+
+/* Hover dels elements */
+
+.llista li:hover {
+    transform: translateX(5px);
+    color: #477a63;
+}
+
+
+/* ================================= */
+/* ENLLAÇ                            */
+/* ================================= */
+
+a {
+    display: inline-block;
+    background-color: #477a63;
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+/* Hover de l'enllaç */
+
+a:hover {
+    background-color: #315c4a;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+/* ================================= */
+/* COLUMNA DE FOTOS                  */
+/* ================================= */
+
+.galeria {
+    background-color: white;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.10);
+    text-align: center;
+}
+
+
+/* Títol de la galeria */
+
+.galeria h2 {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+/* ================================= */
+/* CADA FOTO                         */
+/* ================================= */
+
+.foto {
+    background-color: #f4f8f3;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 14px;
+}
+
+.foto img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.foto h3 {
+    color: #477a63;
+    background-color: #f4f8f3;
+    padding: 8px;
+    margin: 10px 0 5px 0;
+    border-radius: 8px;
+}
